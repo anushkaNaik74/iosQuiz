@@ -1,0 +1,117 @@
+.desc{
+    width: 27em;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #77726ee0;
+    border-radius: 4px;
+    background-color: transparent;
+    font-size: 16px;
+    resize: none;
+    
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Cinzel:wght@700&family=Dancing+Script:wght@700&display=swap");
+.container {
+  font-family: "Comfortaa", cursive;
+  font-family: "Instrument Sans", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 30px;
+  background-color: white;
+  border-style: inherit;
+  width: 500px;
+  height: 850px;
+  /* position: relative; */
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  justify-content: center, space-around;
+  margin-top: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: rgba(255, 255, 255, 0.2); 
+           
+            
+            backdrop-filter: blur(10px); 
+           
+            
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  
+}
+
+
+.user_Input{
+    width: 14em;
+    
+  }
+  
+  .user_Input:focus {
+    color: rgba(100, 42, 234, 0.726);
+  }
+
+  .btn1 {
+    background-color: rgba(100, 42, 234, 0.726);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  
+  
+  .btn1:hover {
+    transform: scale(1.15);
+  }
+
+  .btn2 {
+    background-color: rgba(100, 42, 234, 0.726);
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  
+  
+  .btn2:hover {
+    transform: scale(1.15);
+  }
+
+  .createQuiz {
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/createQuizBg.jpeg");
+}
+
+.detail{
+    font-size: medium;
+}
+
+.text{
+    font-size: 20px;
+    font-family: "Comfortaa", cursive;
+    font-family: "Instrument Sans", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+  

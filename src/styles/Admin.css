@@ -1,0 +1,21 @@
+.Admin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 120vh;
+    background: url('../assets/admin.png')no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Card1{
+    position: absolute;
+  top: 155px;
+  left: 390px;
+}
+
+.Card2{
+    position: absolute;
+  top: 155px;
+  right: 390px;
+}
